@@ -189,7 +189,7 @@
         onUpdate: () => render(state.p),
         scrollTrigger: {
           trigger: svg,
-          start: 'top 72%',
+          start: 'top 60%',
           end: 'bottom 52%',
           scrub: reduceMotion ? true : 0.6
         }
